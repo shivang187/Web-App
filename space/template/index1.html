@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <!--shivang code-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroPhysics</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/rocket-72-190970.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/rocket-32-190970.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/rocket-16-190970.png">
+    <link rel="manifest" href="./assets/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./assets/img/favicons/f.ico">
+    <link rel="stylesheet" href="css/idex1.css">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+    
+    
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- the header -->
+    <header>
+
+        <!-- our main logo -->
+        <a >
+            <span>SUPERNOVAE</span>
+        </a>
+        
+        <!-- main navigation links -->
+        
+    </header>
+    
+    <!-- the content -->
+
+    <main>
+
+        <!-- hero content -->
+        <div class="hero">
+            <!-- content for the hero -->
+            <!--code for layers -->
+        <link rel='stylesheet' href='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css' />
+        <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js' charset='utf-8'></script>
+
+        <div id='aladin-lite-div' style='width: 1515px;height:570px;'></div>
+        <script type='text/javascript' src='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js' charset='utf-8'></script>
+        </div>
+        
+        <!--animation
+        <div class="xyz">
+            <link rel='stylesheet' href='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css' />
+            <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js' charset='utf-8'></script>
+            
+            <div id='aladin-lite-div' style='width: 500px;height: 500px;'></div>
+            <script type='text/javascript' src='https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js' charset='utf-8'></script>
+        </div> -->
+        <!-- features section -->
+        <div class="site-section">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>Life Cycle Of A Star</h2>
+            </div>
+
+            <div class="feature-box">
+                <img src="{{ url_for('static', filename='assets/img/star.jpg') }}" alt="">
+                <h5>Star in Early Stage</h5>
+                <p> Star runs out of nuclear fuel, some of its mass flows into its core</p>
+            </div>
+
+            <div class="feature-box">
+                <img src="{{ url_for('static', filename='assets/img/redgaint.jpg') }}" alt="">
+                <h5>Becomes a Red Giant</h5>
+                <p>Red giant is a star that has exhausted the supply of hydrogen in its core </p>
+            </div>
+
+            <div class="feature-box">
+                <img src="{{ url_for('static', filename='assets/img/supernova.jpg') }}" alt="">
+                <h5>The  luminous stellar explosion</h5>
+                <p>The core collapses, which results in the giant explosion of a supernova. </p>
+            </div>
+
+        </div>
+        </div>
+
+        <!-- testimonials section -->
+        <div class="site-section site-section-secondary">
+        <div class="site-section-inside">
+
+            <div class="section-header">
+                <h2>Current Missions..</h2>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="testimonial-content">
+                    The Best Space BAsed TeleScope Upto Now
+                </div>
+                <div class="testimonial-author">
+                    <img src="{{ url_for('static', filename='assets/img/Hubble telescope.jpg') }}" alt="">
+                    <h5>HUBBLE TELESCOPE</h5>
+                    <span>supernova detection</span>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="testimonial-content">
+                    Most Advanced X-ray Astrophysics Facility
+                </div>
+                <div class="testimonial-author">
+                    <img src="{{ url_for('static', filename='assets/img/chandra.jpg') }}" alt="">
+                    <h5>Chandra X-ray Observatory</h5>
+                    <span>X ray Detection</span>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+                <div class="testimonial-content">
+                    Space observatory being used to perform gamma-ray astronomy observations from low Earth orbit.
+                </div>
+                <div class="testimonial-author">
+                    <img src="{{ url_for('static', filename='assets/img/fermi.jpg') }}" alt="">
+                    <h5>Fermi Gamma-ray Space Telescope</h5>
+                    <span>Gamma ray Detection</span>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </main>
+
+    <!-- the footer -->
+    <footer>
+        <img src="{{ url_for('static', filename='assets/img/avatar.png') }}" alt="Footer Logo">
+        <span>OriginalX</span>
+    </footer>
+     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed"><a
+            class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a></div>
+    <script src="css/scripts.js"></script>
+    <script src="css/index1.js"></script>
+</body>
+</html>

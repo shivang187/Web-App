@@ -1,0 +1,179 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+  align-self: auto;
+}
+
+/* styling our overall page */
+body     { 
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  max-height: max-content;
+}
+
+/* styling our header */
+header   {
+  background: #2c3e50;
+  color: #FFF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+    margin: auto;
+       text-align: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   z-index: 1030;
+   font-size: 40px;
+   height: 180px;
+   
+}
+
+
+
+
+/* main navigation */
+nav     {
+  width: 60%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+/* styling our footer */
+footer   {
+  background: #2c3e50;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+/* styling our main content */
+.hero           {
+  min-height: 500px;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(0, 0, 0) !important;
+  background-size: auto;
+  image-rendering: optimizeSpeed;
+  border-radius: 5px;
+}
+
+ /* .xyz {
+  min-height: 500px;
+  text-align: center;
+  margin: 5px;
+  background-color: rgb(26, 188, 156) !important;
+
+  background-size: auto;
+  image-rendering: optimizeSpeed;
+  border-radius: 5px;
+}  */
+
+
+/* basic site sections */
+.site-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.site-section-secondary   {
+  background: #EFEFEF;
+}
+.site-section-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+/* feature boxes */
+.feature-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.feature-box img  {
+  margin-bottom: 12px;
+  width: 80px;
+}
+.feature-box h5   {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* testimonial boxes */
+.testimonial-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+  
+}
+.testimonial-content   {
+  background: #FFF;
+  padding: 15px;
+  border-radius: 4px;  
+  margin-bottom: 15px;
+}
+/* .testimonial-author {
+width: 0%; */
+
+}
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%; 
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testimonial-author h5   {
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top:15px;
+}
+/* .testimonial-author span {
+  font-size: 14px;
+} */
